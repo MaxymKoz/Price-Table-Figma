@@ -81,11 +81,20 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+ul .listWhite,
+ul .listBlack {
+  padding-top: 2%;
 }
 
-li {
-  background-image: url("/Image/Green.jpg");
+.Shape-D {
+  display: flex;
+}
+
+.Shape {
+  height: 100%;
+  width: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

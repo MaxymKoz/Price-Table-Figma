@@ -85,8 +85,24 @@
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: center;
+     align-items: flex-start;
+
+     .listWhite,
+     .listBlack {
+         padding-top: 2%;
+
      }
-     li{
-        background-image: url('/Image/Green.jpg');
-     }
+
+
+ }
+
+ .Shape-D {
+     display: flex;
+ }
+
+//  div
+ .Shape {
+
+     height: 100%;
+     width: 20%;
+ }
