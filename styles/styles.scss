@@ -13,9 +13,15 @@
 
  .main {
      display: flex;
-     height: 90%;
+     height: 100%;
      width: 84%;
 
+ }
+
+ .secondPrice {
+     display: flex;
+     flex-direction: column;
+     overflow: hidden;
  }
 
  .firstPrice,
@@ -29,10 +35,27 @@
  }
 
  .basicPrice {
+     background-color: #5BB189;
+
+ }
+
+ .basicPrice2 {
+     background-color: #3A6BA5;
+ }
+
+ .basicPrice3 {
+     background-color: #EC632A;
+ }
+
+
+
+ .basicPrice,
+ .basicPrice2,
+ .basicPrice3 {
      display: flex;
      justify-content: center;
      align-items: center;
-     background-color: #5BB189;
+     height: 14%;
  }
 
  .price {
@@ -49,6 +72,7 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     height: 16%;
  }
 
  .class {
@@ -78,31 +102,91 @@
      letter-spacing: 0px;
      text-align: center;
      margin: 10%;
+
  }
 
  ul {
      list-style: none;
-     display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: flex-start;
+     padding-left: 0%;
 
-     .listWhite,
-     .listBlack {
-         padding-top: 2%;
+     li {
+         padding: 4% 15%;
+         font-family: 'Montserrat';
+         font-size: 15px;
+         font-weight: 300;
+         line-height: 18px;
+         letter-spacing: 0px;
+         text-align: left;
+
 
      }
-
-
  }
 
- .Shape-D {
+
+
+ // div
+ .listBlack,
+ .listWhite {
      display: flex;
+
  }
 
-//  div
+ .listBlack {
+     background-color: #2A3438;
+ }
+
  .Shape {
-
+     justify-self: center;
+     align-self: center;
      height: 100%;
-     width: 20%;
+     padding-left: 10%;
  }
+
+ .btn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 8%
+ }
+
+ .btnGreen {
+     background-color: #5BB189;
+ }
+
+ .btnBlue {
+     background-color: #3A6BA5;
+ }
+
+ .btnOrange {
+     background-color: #EC632A;
+ }
+
+ .btnBlue,
+ .btnGreen,
+ .btnOrange {
+     height: 100%;
+     width: 50%;
+     border-radius: 50px;
+ }
+
+ .recomend {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 9%;
+     background-color: #DC3F45;
+     transform: rotate(45deg);
+     margin-top: 22%;
+     margin-left: 80%;
+     width: 50%;
+     font-family: 'Montserrat';
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 17px;
+
+ }
+
+ 
